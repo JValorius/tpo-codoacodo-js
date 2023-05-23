@@ -1,10 +1,78 @@
+@import "general.css";
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
 }
-  
+
 .footer {
     margin-top: auto;
 }
+
+#nav-index {
+    position: -webkit-sticky;
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    left: 50%;
+}
+
+#nav-index a {
+    float: left;
+    padding: 0;
+    position: relative;
+    right: 50%;
+    color: #0075B2;
+    display: block;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#nav-index a.actual {
+    color: #C1272D;
+    border-bottom: .3em solid #e1e1e1;
+}
+
+#nav-index a:hover {
+    color: #848484;
+    border-bottom: .3em solid #848484;
+}
+
+#nav-index a:active {
+    color: #C1272D;
+    border-bottom: .3em solid #e1e1e1;
+}
+
+#nav-index .hamburguesa {
+    display: none;
+}
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    #nav-index a {
+        display: none;
+    }
+    #nav-index a.hamburguesa {
+        float: right;
+        display: block;
+    }
+}
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    #nav-index.responsive {
+        position: relative;
+    }
+    #nav-index.responsive a.hamburguesa {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    #nav-index.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+  } 
