@@ -3,27 +3,42 @@ const { createApp } = Vue;
 const customHeader = {
     template: `
             <div class="branding-sitio"> <a href="index.html" rel="home" title="Elegir Clínica">
-                <div><img src="img/isologo.svg" height="50" alt="ElegirClinica Logo"></div>
-            </a></div>
-            <div><h4 class="descripcion-sitio">Los centros médicos más elegidos de la ciudad de Buenos Aires</h4></div>
+                    <div><img src="img/isologo.svg" height="50" alt="ElegirClinica Logo"></div>
+                </a>
+                <div><h4 class="descripcion-sitio">{{tagline}}</h4></div>
+            </div>
+            
+            <a href="ingresar.html" id="login-register" class="main-action">Ingresar</a>
         `,
+    data() {
+        return {
+            tagline: 'Raking de clinicas de Buenos Aires, elaborado por sus pacientes',
+        }
+    },
 };
 
 const customNav = {
     template: `
             <div class="menu-principal-container">
                 <div aria-hidden="true" id="menu-principal" class="menu nav-menu">
-                    <a href="index.html" id="menu-princ-1" class="menu-item">Inicio</a>
-                    <a href="lista-cm.html" id="menu-princ-2" class="menu-item">Centros médicos</a>
-                    <a href="analisis-cm.html" id="menu-princ-3" class="menu-item">Análisis</a>
-                    <a href="acerca.html" id="menu-princ-4" class="menu-item">Acerca de</a>
-                    <a href="ingresar.html" id="menu-princ-5" class="menu-item">Ingresar</a>
+                    <a v-bind:href="home" id="menu-princ-1" class="menu-item">Inicio</a>
+                    <a v-bind:href="ranking" id="menu-princ-2" class="menu-item">Centros médicos</a>
+                    <a v-bind:href="analysis" id="menu-princ-3" class="menu-item">Análisis</a>
+                    <a v-bind:href="about" id="menu-princ-4" class="menu-item">Acerca de</a>
                     <a href="javascript:void(0);" id="menu-hamburg" class="hamburguesa" onclick="abrirMenu()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
             </div>
         `,
+        data() {
+            return {
+                home: "index.html",
+                about: "acerca.html",
+                analysis: "analisis-cm.html",
+                ranking: "lista-cm.html"
+            }
+        }
 };
 
 const customFooter = {
