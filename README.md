@@ -3,9 +3,9 @@ Proyecto para FullStack Codo a Codo
 
 Mockup FrontEnd de sitio web que funcione como agregador de valororaciones de clínicas de CABA, ofreciendo un listado de centros de atención médica y la calificación que le otorgan sus usuarios.
 
-Todo list:
+## Todo list:
 
-Desarrollo completo:
+### Desarrollo completo:
     Index
         Contenido
         Formato y estilo
@@ -33,7 +33,7 @@ Desarrollo completo:
         Formulario de contacto
         Mailto para contacto de centros médicos
 
-Sólo formato y estilo
+### Sólo formato y estilo
     Terminar de incorporar responsive, agregar segundo punto de corte
     Footer
     Header
