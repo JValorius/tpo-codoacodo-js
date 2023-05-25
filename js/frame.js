@@ -12,7 +12,7 @@ const customHeader = {
         `,
     data() {
         return {
-            tagline: 'Raking de clinicas de Buenos Aires, elaborado por sus pacientes',
+            tagline: 'Ranking de clinicas de Buenos Aires, elaborado por sus pacientes',
         }
     },
 };
