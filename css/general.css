@@ -16,3 +16,10 @@ a {
   font-style: italic;
   font-size: .9em;
 }
+
+div p {
+  display: block;
+  margin: 50px;
+  text-align: center;
+  
+}

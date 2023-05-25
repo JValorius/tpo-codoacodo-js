@@ -98,3 +98,16 @@ body {
         text-align: center;
     }
 }
+
+ul li {
+    margin:20px;
+
+}
+
+.redsoc{
+    margin-left: 2em;
+}
+
+.maps{
+    display: flexbox;
+}

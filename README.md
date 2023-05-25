@@ -14,7 +14,7 @@ Desarrollo completo:
         Fetch app
         Formato y estilo
             Incluír puntajes de "atención médica", "instalaciones", "administración"
-        "Ver más" (desplegable)
+            "Ver más" (desplegable)
             Incorporar Iframe de Google Maps
         SAP-style loading
     Análisis
