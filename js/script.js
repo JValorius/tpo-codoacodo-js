@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
     // Ruta del archivo JSON
-    const jsonFile = 'simulate\clinicas.json';
+    const jsonFile = 'simulate/clinicas.json';
   
     // Realizar la petición GET para obtener el archivo JSON
     fetch(jsonFile)
