@@ -1,96 +1,115 @@
+/* Define la estructura de los elementos principales del sitio, y en detalle la distribución de los elementros del header y el footer */
 @import "general.css";
 
+/* Tipos */
 body {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-flow: row wrap;
 }
 
-.header {
-    position: relative;
+body > * {
+    flex: 1 100%;
 }
 
-
-.header .branding-sitio {
+header .branding-sitio {
     float: left;
 }
 
-.header #login-register {
-    position: absolute;
-    right: 1%;
-    border-radius: .2em;
-    background: var(--col-ter-md);
-    color: var(--col-pri);
-    text-transform: uppercase;
-    padding: .5em;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-.footer {
-    margin-top: auto;
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 #nav-index {
     position: -webkit-sticky;
     position: sticky;
-    align-self: flex-start;
     top: 0;
-    left: 50%;
     background-color: #fff;
 }
 
-#nav-index a {
-    float: left;
-    position: relative;
-    right: 50%;
+#menu-principal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#menu-principal a {
     color: var(--col-sec-md);
-    display: block;
     text-transform: uppercase;
     padding: .5em 1em;
     transition: color 0.25s ease-out;
     font-family: 'Didact Gothic', sans-serif;
-    text-decoration: none;
     outline: 0;
+    background: 
+    linear-gradient(var(--col-ace) 0 0) no-repeat
+        calc(200% - var(--p,0%)) 100% / 200% var(--p,.08em);
+    transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
 }
 
-#nav-index a.actual {
+#menu-principal a.actual {
     background: var(--col-ter-md);
     color: var(--col-pri);
     /*border-bottom: .3em solid #e1e1e1;*/
 }
 
-#nav-index a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%; /* 100% of <p>, not <span> */
-    height: 100%; /* 100% of <p>, not <span> */
-    background: var(--col-ace);
-    z-index: -1;
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: transform 0.25s ease-out;
-}
-
-#nav-index a:hover {
+#menu-principal a:hover {
+    --p: 100%;
+    --t: .3s;
     color: var(--col-pri);
-    /*border-bottom: .3em solid #848484;*/
-}
-#nav-index a:hover::after {
-    transform: scaleY(1);
-    transform-origin: bottom;
 }
 
-#nav-index a:active {
+#menu-principal a:active {
     color: var(--col-ter-md);
     /*border-bottom: .3em solid #e1e1e1;*/
 }
 
-#nav-index .hamburguesa {
+#menu-principal .hamburguesa {
     display: none;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: auto;
+}
+
+footer .bottom-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+footer.info-sitio {
+    flex: 6;
+}
+
+footer .info-sitio li {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer .helper-links {
+    flex: 1 100%;
+    margin: 2em 5em;
+    text-align: left;
+}
+
+footer .redes {
+    flex: 1 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .redsoc{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+footer .copyrhight {
+    flex: 1 100%;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -102,6 +121,12 @@ body {
         float: right;
         display: block;
     }
+    
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
 }
 
 @media screen and (max-width: 600px) {
@@ -120,20 +145,6 @@ body {
         display: block;
         text-align: center;
     }
-}
-
-ul li {
-    margin:20px;
-
-}
-
-.site-footer li {
-    list-style-type: none;
-    margin: 0;
-}
-
-.redsoc{
-    margin-left: 2em;
 }
 
 .maps{
