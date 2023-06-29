@@ -1,7 +1,7 @@
 function abrirMenu() {
     var x = document.getElementById("nav-index");
     if (x.className === "nav") {
-        x.className += " responsive";
+        x.classList.add("responsive");
     } else {
         x.className = "nav";
     }

@@ -8,11 +8,10 @@ const customHeader = {
                 <div><h4 class="descripcion-sitio">{{tagline}}</h4></div>
             </div>
             
-            <a href="ingresar.html" id="login-register" class="main-action">Ingresar</a>
         `,
     data() {
         return {
-            tagline: 'Ranking de clinicas de Buenos Aires, elaborado por sus pacientes',
+            tagline: 'Ranking de centros médicos de Buenos Aires, elaborado por sus pacientes',
         }
     },
 };

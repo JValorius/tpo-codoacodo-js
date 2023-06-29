@@ -20,8 +20,8 @@ body {
     position: absolute;
     right: 1%;
     border-radius: .2em;
-    background: #C1272D;
-    color: #fff;
+    background: var(--col-ter-md);
+    color: var(--col-pri);
     text-transform: uppercase;
     padding: .5em;
     top: 50%;
@@ -45,25 +45,48 @@ body {
     float: left;
     position: relative;
     right: 50%;
-    color: #0075B2;
+    color: var(--col-sec-md);
     display: block;
     text-transform: uppercase;
     padding: .5em 1em;
+    transition: color 0.25s ease-out;
+    font-family: 'Didact Gothic', sans-serif;
+    text-decoration: none;
+    outline: 0;
 }
 
 #nav-index a.actual {
-    color: #C1272D;
-    border-bottom: .3em solid #e1e1e1;
+    background: var(--col-ter-md);
+    color: var(--col-pri);
+    /*border-bottom: .3em solid #e1e1e1;*/
+}
+
+#nav-index a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* 100% of <p>, not <span> */
+    height: 100%; /* 100% of <p>, not <span> */
+    background: var(--col-ace);
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.25s ease-out;
 }
 
 #nav-index a:hover {
-    color: #848484;
-    border-bottom: .3em solid #848484;
+    color: var(--col-pri);
+    /*border-bottom: .3em solid #848484;*/
+}
+#nav-index a:hover::after {
+    transform: scaleY(1);
+    transform-origin: bottom;
 }
 
 #nav-index a:active {
-    color: #C1272D;
-    border-bottom: .3em solid #e1e1e1;
+    color: var(--col-ter-md);
+    /*border-bottom: .3em solid #e1e1e1;*/
 }
 
 #nav-index .hamburguesa {
@@ -102,6 +125,11 @@ body {
 ul li {
     margin:20px;
 
+}
+
+.site-footer li {
+    list-style-type: none;
+    margin: 0;
 }
 
 .redsoc{
