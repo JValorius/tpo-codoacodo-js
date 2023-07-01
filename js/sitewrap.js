@@ -2,10 +2,13 @@ const { createApp } = Vue;
 
 const customHeader = {
     template: `
-            <div class="branding-sitio"> <a href="index.html" rel="home" title="Elegir Clínica">
+            <div class="branding-sitio">
+                <a href="index.html" rel="home" title="Elegir Clínica">
                     <div><img src="img/isologo.svg" height="50" alt="ElegirClinica Logo"></div>
                 </a>
-                <div><h4 class="descripcion-sitio">{{tagline}}</h4></div>
+                <div>
+                    <h5 class="descripcion-sitio">{{tagline}}</h5>
+                </div>
             </div>
             
         `,
@@ -40,12 +43,14 @@ const customNav = {
 
 const customFooter = {
     template: `
-            <div class="bottom-logo"><img src="img/logo.svg" height="50" alt="ElegirClinica Logo"></div>
-            <div class="info-sitio">
-                <ul>
-                    <li>Elegir Clínica</li>
-                    <li>{{tagline}}</li>
-                </ul>
+            <div class="branding-sitio">
+                <div class="bottom-logo"><img src="img/logo.svg" height="50" alt="ElegirClinica Logo"></div>
+                <div class="info-sitio">
+                    <ul>
+                        <li>Elegir Clínica</li>
+                        <li>{{tagline}}</li>
+                    </ul>
+                </div>
             </div>
             <div class="helper-links">
                 <a href="contacto.html">Contactanos</a>

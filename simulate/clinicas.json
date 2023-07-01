@@ -1,1 +1,266 @@
-[{"direccion":"Av. C\u00f3rdoba 2351","id":1,"imagen":"hosp-clinicas.jpg","localidad":"CABA","nombre":"Hospital de Cl\u00ednicas","rate_edil":4.27,"rate_medi":4.27,"rate_serv":4.31,"telefono":"011-59508000"},{"direccion":"Tte. Gral. Juan Domingo Per\u00f3n 4190","id":2,"imagen":"hosp-italiano.jpg","localidad":"CABA","nombre":"Hospital Italiano","rate_edil":4.07,"rate_medi":4.17,"rate_serv":3.12,"telefono":"011-49590200"},{"direccion":"Av. Pueyrred\u00f3n 1640","id":3,"imagen":"hosp-aleman.jpg","localidad":"CABA","nombre":"Hospital Alem\u00e1n","rate_edil":4.57,"rate_medi":4.03,"rate_serv":3.22,"telefono":"011-48277000"},{"direccion":"Perdriel 74","id":4,"imagen":"hosp-britanico.jpg","localidad":"CABA","nombre":"Hospital Brit\u00e1nico","rate_edil":3.79,"rate_medi":3.88,"rate_serv":3.71,"telefono":"011-43096400"},{"direccion":"Gral. Urquiza 609","id":5,"imagen":"ramos_mejia_1.jpg","localidad":"CABA","nombre":"Hospital Ramos Mej\u00eda","rate_edil":3.91,"rate_medi":4.01,"rate_serv":4.27,"telefono":"011-49311884"},{"direccion":"Pichincha 1890","id":6,"imagen":"garrahan.png","localidad":"CABA","nombre":"Hospital Garrahan","rate_edil":4.08,"rate_medi":4.88,"rate_serv":4.17,"telefono":"011-41226000"},{"direccion":"Francisco Acu\u00f1a de Figueroa 1240","id":7,"imagen":"sanat-guemes.jpg","localidad":"CABA","nombre":"Sanatorio G\u00fcemes","rate_edil":3.56,"rate_medi":3.79,"rate_serv":3.38,"telefono":"011-49598300"},{"direccion":"Azcu\u00e9naga 870","id":8,"imagen":"otamendi.jpg","localidad":"CABA","nombre":"Sanatorio Otamendi y Miroli","rate_edil":4.11,"rate_medi":4.23,"rate_serv":3.68,"telefono":"011-49652900"},{"direccion":"Av. San Juan 2021","id":9,"imagen":"santa_lucia.jpg","localidad":"CABA","nombre":"Hospital Santa Luc\u00eda","rate_edil":4.28,"rate_medi":4.68,"rate_serv":3.82,"telefono":"011-49415555"},{"direccion":"Juncal 3002","id":10,"imagen":"bazterrica.jpg","localidad":"CABA","nombre":"Cl\u00ednica Bazterrica","rate_edil":3.2,"rate_medi":4.12,"rate_serv":3.42,"telefono":"011-48211600"},{"direccion":"Av. Gral. Las Heras 2670","id":11,"imagen":"hosp-rivadavia.jpg","localidad":"CABA","nombre":"Hospital Rivadavia","rate_edil":3.7,"rate_medi":4.1,"rate_serv":4.52,"telefono":"011-48092000"},{"direccion":"Av. Pueyrred\u00f3n 1461","id":12,"imagen":"suizo-arg.jpg","localidad":"CABA","nombre":"Cl\u00ednica y Maternidad Suizo Argentina","rate_edil":4.3,"rate_medi":3.75,"rate_serv":2.85,"telefono":"011-52396000"},{"direccion":"Dr. Tom\u00e1s Manuel de Anchorena 1872","id":13,"imagen":"anchorena.jpg","localidad":"CABA","nombre":"Sanatorio Anchorena","rate_edil":3.94,"rate_medi":3.75,"rate_serv":3.66,"telefono":"011-48085400"},{"direccion":"Av. Cervi\u00f1o 3356","id":14,"imagen":"hosp-fernandez.jpg","localidad":"CABA","nombre":"Hospital Fern\u00e1ndez","rate_edil":3.99,"rate_medi":4.19,"rate_serv":4.13,"telefono":"011-48082600"},{"direccion":"Av. C\u00f3rdoba 2678","id":15,"imagen":"sanatorio-finochietto.jpg","localidad":"CABA","nombre":"Sanatorio Finochietto","rate_edil":3.92,"rate_medi":2.97,"rate_serv":3.27,"telefono":"011-37528000"},{"direccion":"Av. Montes de Oca 40","id":16,"imagen":"elizalde-ninos.jpg","localidad":"CABA","nombre":"Hospital de Ni\u00f1os Pedro de Elizalde","rate_edil":4.01,"rate_medi":4.81,"rate_serv":4.72,"telefono":"011-43632100"},{"direccion":"Av. Combatientes de Malvinas 3002","id":17,"imagen":"hosp-tomu.jpg","localidad":"CABA","nombre":"Hospital Torn\u00fa","rate_edil":4.17,"rate_medi":4.03,"rate_serv":4.4,"telefono":"011-45213600"},{"direccion":"Nueva York 3952","id":18,"imagen":"zubizarreta.jpg","localidad":"CABA","nombre":"Hospital Zubizarreta","rate_edil":4.03,"rate_medi":4.16,"rate_serv":3.79,"telefono":"011-45015985"},{"direccion":"Dr. Prof. Pedro Chutro 3380","id":19,"imagen":"penna.jpg","localidad":"CABA","nombre":"Hospital Penna","rate_edil":4.2,"rate_medi":4.55,"rate_serv":4.36,"telefono":"011-49115555"},{"direccion":"Av. D\u00edaz V\u00e9lez 5044","id":20,"imagen":"durand.jpg","localidad":"CABA","nombre":"Hospital Durand","rate_edil":3.21,"rate_medi":4.4,"rate_serv":3.9,"telefono":"011-49825555"},{"direccion":"Av. Monroe 3555","id":21,"imagen":"pirovano.jpg","localidad":"CABA","nombre":"Hospital Pirovano","rate_edil":3.75,"rate_medi":4.5,"rate_serv":4.25,"telefono":"011-45464300"},{"direccion":"Dr. Luis Agote 2477","id":22,"imagen":"agote.jpg","localidad":"CABA","nombre":"Sanatorio Agote","rate_edil":4.1,"rate_medi":3.62,"rate_serv":2.8,"telefono":"011-52396700"},{"direccion":"Monta\u00f1eses 2325","id":23,"imagen":"instituto-fileni.jpg","localidad":"CABA","nombre":"Hospital Fleni","rate_edil":4.3,"rate_medi":4.22,"rate_serv":4.27,"telefono":"011-57773200"},{"direccion":"Marcelo Torcuato de Alvear 2346","id":24,"imagen":"iadt-2.jpg","localidad":"CABA","nombre":"Instituto Argentino de Diagnostico y Tratamiento","rate_edil":4.65,"rate_medi":4.13,"rate_serv":4.2,"telefono":"011-49651100"}]
+[
+    {
+        "direccion": "Av. C\u00f3rdoba 2351",
+        "id": 1,
+        "imagen": "hosp-clinicas.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital de Cl\u00ednicas",
+        "rate_edil": 4.27,
+        "rate_medi": 4.27,
+        "rate_serv": 4.31,
+        "telefono": "011-59508000"
+    },
+    {
+        "direccion": "Tte. Gral. Juan Domingo Per\u00f3n 4190",
+        "id": 2,
+        "imagen": "hosp-italiano.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Italiano",
+        "rate_edil": 4.07,
+        "rate_medi": 4.17,
+        "rate_serv": 3.12,
+        "telefono": "011-49590200"
+    },
+    {
+        "direccion": "Av. Pueyrred\u00f3n 1640",
+        "id": 3,
+        "imagen": "hosp-aleman.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Alem\u00e1n",
+        "rate_edil": 4.57,
+        "rate_medi": 4.03,
+        "rate_serv": 3.22,
+        "telefono": "011-48277000"
+    },
+    {
+        "direccion": "Perdriel 74",
+        "id": 4,
+        "imagen": "hosp-britanico.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Brit\u00e1nico",
+        "rate_edil": 3.79,
+        "rate_medi": 3.88,
+        "rate_serv": 3.71,
+        "telefono": "011-43096400"
+    },
+    {
+        "direccion": "Gral. Urquiza 609",
+        "id": 5,
+        "imagen": "ramos_mejia_1.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Ramos Mej\u00eda",
+        "rate_edil": 3.91,
+        "rate_medi": 4.01,
+        "rate_serv": 4.27,
+        "telefono": "011-49311884"
+    },
+    {
+        "direccion": "Pichincha 1890",
+        "id": 6,
+        "imagen": "garrahan.png",
+        "localidad": "CABA",
+        "nombre": "Hospital Garrahan",
+        "rate_edil": 4.08,
+        "rate_medi": 4.88,
+        "rate_serv": 4.17,
+        "telefono": "011-41226000"
+    },
+    {
+        "direccion": "Francisco Acu\u00f1a de Figueroa 1240",
+        "id": 7,
+        "imagen": "sanat-guemes.jpg",
+        "localidad": "CABA",
+        "nombre": "Sanatorio G\u00fcemes",
+        "rate_edil": 3.56,
+        "rate_medi": 3.79,
+        "rate_serv": 3.38,
+        "telefono": "011-49598300"
+    },
+    {
+        "direccion": "Azcu\u00e9naga 870",
+        "id": 8,
+        "imagen": "otamendi.jpg",
+        "localidad": "CABA",
+        "nombre": "Sanatorio Otamendi y Miroli",
+        "rate_edil": 4.11,
+        "rate_medi": 4.23,
+        "rate_serv": 3.68,
+        "telefono": "011-49652900"
+    },
+    {
+        "direccion": "Av. San Juan 2021",
+        "id": 9,
+        "imagen": "santa_lucia.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Santa Luc\u00eda",
+        "rate_edil": 4.28,
+        "rate_medi": 4.68,
+        "rate_serv": 3.82,
+        "telefono": "011-49415555"
+    },
+    {
+        "direccion": "Juncal 3002",
+        "id": 10,
+        "imagen": "bazterrica.jpg",
+        "localidad": "CABA",
+        "nombre": "Cl\u00ednica Bazterrica",
+        "rate_edil": 3.2,
+        "rate_medi": 4.12,
+        "rate_serv": 3.42,
+        "telefono": "011-48211600"
+    },
+    {
+        "direccion": "Av. Gral. Las Heras 2670",
+        "id": 11,
+        "imagen": "hosp-rivadavia.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Rivadavia",
+        "rate_edil": 3.7,
+        "rate_medi": 4.1,
+        "rate_serv": 4.52,
+        "telefono": "011-48092000"
+    },
+    {
+        "direccion": "Av. Pueyrred\u00f3n 1461",
+        "id": 12,
+        "imagen": "suizo-arg.jpg",
+        "localidad": "CABA",
+        "nombre": "Cl\u00ednica y Maternidad Suizo Argentina",
+        "rate_edil": 4.3,
+        "rate_medi": 3.75,
+        "rate_serv": 2.85,
+        "telefono": "011-52396000"
+    },
+    {
+        "direccion": "Dr. Tom\u00e1s Manuel de Anchorena 1872",
+        "id": 13,
+        "imagen": "anchorena.jpg",
+        "localidad": "CABA",
+        "nombre": "Sanatorio Anchorena",
+        "rate_edil": 3.94,
+        "rate_medi": 3.75,
+        "rate_serv": 3.66,
+        "telefono": "011-48085400"
+    },
+    {
+        "direccion": "Av. Cervi\u00f1o 3356",
+        "id": 14,
+        "imagen": "hosp-fernandez.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Fern\u00e1ndez",
+        "rate_edil": 3.99,
+        "rate_medi": 4.19,
+        "rate_serv": 4.13,
+        "telefono": "011-48082600"
+    },
+    {
+        "direccion": "Av. C\u00f3rdoba 2678",
+        "id": 15,
+        "imagen": "sanatorio-finochietto.jpg",
+        "localidad": "CABA",
+        "nombre": "Sanatorio Finochietto",
+        "rate_edil": 3.92,
+        "rate_medi": 2.97,
+        "rate_serv": 3.27,
+        "telefono": "011-37528000"
+    },
+    {
+        "direccion": "Av. Montes de Oca 40",
+        "id": 16,
+        "imagen": "elizalde-ninos.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital de Ni\u00f1os Pedro de Elizalde",
+        "rate_edil": 4.01,
+        "rate_medi": 4.81,
+        "rate_serv": 4.72,
+        "telefono": "011-43632100"
+    },
+    {
+        "direccion": "Av. Combatientes de Malvinas 3002",
+        "id": 17,
+        "imagen": "hosp-tomu.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Torn\u00fa",
+        "rate_edil": 4.17,
+        "rate_medi": 4.03,
+        "rate_serv": 4.4,
+        "telefono": "011-45213600"
+    },
+    {
+        "direccion": "Nueva York 3952",
+        "id": 18,
+        "imagen": "zubizarreta.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Zubizarreta",
+        "rate_edil": 4.03,
+        "rate_medi": 4.16,
+        "rate_serv": 3.79,
+        "telefono": "011-45015985"
+    },
+    {
+        "direccion": "Dr. Prof. Pedro Chutro 3380",
+        "id": 19,
+        "imagen": "penna.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Penna",
+        "rate_edil": 4.2,
+        "rate_medi": 4.55,
+        "rate_serv": 4.36,
+        "telefono": "011-49115555"
+    },
+    {
+        "direccion": "Av. D\u00edaz V\u00e9lez 5044",
+        "id": 20,
+        "imagen": "durand.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Durand",
+        "rate_edil": 3.21,
+        "rate_medi": 4.4,
+        "rate_serv": 3.9,
+        "telefono": "011-49825555"
+    },
+    {
+        "direccion": "Av. Monroe 3555",
+        "id": 21,
+        "imagen": "pirovano.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Pirovano",
+        "rate_edil": 3.75,
+        "rate_medi": 4.5,
+        "rate_serv": 4.25,
+        "telefono": "011-45464300"
+    },
+    {
+        "direccion": "Dr. Luis Agote 2477",
+        "id": 22,
+        "imagen": "agote.jpg",
+        "localidad": "CABA",
+        "nombre": "Sanatorio Agote",
+        "rate_edil": 4.1,
+        "rate_medi": 3.62,
+        "rate_serv": 2.8,
+        "telefono": "011-52396700"
+    },
+    {
+        "direccion": "Monta\u00f1eses 2325",
+        "id": 23,
+        "imagen": "instituto-fileni.jpg",
+        "localidad": "CABA",
+        "nombre": "Hospital Fleni",
+        "rate_edil": 4.3,
+        "rate_medi": 4.22,
+        "rate_serv": 4.27,
+        "telefono": "011-57773200"
+    },
+    {
+        "direccion": "Marcelo Torcuato de Alvear 2346",
+        "id": 24,
+        "imagen": "iadt-2.jpg",
+        "localidad": "CABA",
+        "nombre": "Instituto Argentino de Diagnostico y Tratamiento",
+        "rate_edil": 4.65,
+        "rate_medi": 4.13,
+        "rate_serv": 4.2,
+        "telefono": "011-49651100"
+    }
+]

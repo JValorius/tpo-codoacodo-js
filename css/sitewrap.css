@@ -11,8 +11,8 @@ body > * {
     flex: 1 100%;
 }
 
-header .branding-sitio {
-    float: left;
+header {
+    display: flex;
 }
 
 nav {
@@ -21,6 +21,57 @@ nav {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: auto;
+    justify-content: center;
+}
+
+/* Clases */
+.branding-sitio {
+    display: flex;
+}
+
+.bottom-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.info-sitio {
+    flex: 6;
+}
+
+.info-sitio li {
+    list-style-type: none;
+    margin: 0;
+}
+
+.helper-links {
+    flex: 1 100%;
+    margin: 2em 5em;
+    text-align: left;
+}
+
+.redes {
+    flex: 1 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.redsoc{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.copyrhight {
+    flex: 1 100%;
+    text-align: center;
+}
+
+/* IDs */
 #nav-index {
     position: -webkit-sticky;
     position: sticky;
@@ -38,80 +89,31 @@ nav {
     color: var(--col-sec-md);
     text-transform: uppercase;
     padding: .5em 1em;
-    transition: color 0.25s ease-out;
     font-family: 'Didact Gothic', sans-serif;
     outline: 0;
-    background: 
-    linear-gradient(var(--col-ace) 0 0) no-repeat
-        calc(200% - var(--p,0%)) 100% / 200% var(--p,.08em);
-    transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+    background: linear-gradient(var(--col-pri) 50%, var(--col-ace) 50%) no-repeat top / 100% 200%;
+    transition: .5s ease;
 }
 
 #menu-principal a.actual {
     background: var(--col-ter-md);
     color: var(--col-pri);
-    /*border-bottom: .3em solid #e1e1e1;*/
 }
 
 #menu-principal a:hover {
-    --p: 100%;
-    --t: .3s;
+    background-position: bottom;
     color: var(--col-pri);
 }
 
 #menu-principal a:active {
     color: var(--col-ter-md);
-    /*border-bottom: .3em solid #e1e1e1;*/
 }
 
 #menu-principal .hamburguesa {
     display: none;
 }
 
-footer {
-    display: flex;
-    flex-flow: row wrap;
-    margin-top: auto;
-}
-
-footer .bottom-logo {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
-
-footer.info-sitio {
-    flex: 6;
-}
-
-footer .info-sitio li {
-    list-style-type: none;
-    margin: 0;
-}
-
-footer .helper-links {
-    flex: 1 100%;
-    margin: 2em 5em;
-    text-align: left;
-}
-
-footer .redes {
-    flex: 1 100%;
-    display: flex;
-    justify-content: center;
-}
-
-footer .redsoc{
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-footer .copyrhight {
-    flex: 1 100%;
-    text-align: center;
-}
-
+/*Puntos de corte*/
 @media screen and (max-width: 600px) {
     #nav-index a {
         display: none;
@@ -145,10 +147,4 @@ footer .copyrhight {
         display: block;
         text-align: center;
     }
-}
-
-.maps{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
 }

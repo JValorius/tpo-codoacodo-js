@@ -27,7 +27,16 @@ body {
 }
 
 a {
+  color: var(--col-sec-md);
   text-decoration: none;
+}
+
+a:active {
+  color: var(--col-ace-md);
+}
+
+a:hover {
+  color: var(--col-ter-md);
 }
 
 /* Clases */

@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elegir Clinica - Home</title>
 
-    <link rel="stylesheet" href="css/sitewrap.css">
+    <link rel="stylesheet" href="css/lista-cm.css">
 
     <script src="https://kit.fontawesome.com/203a1012d5.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
     <script src="js/sitewrap.js" defer></script>
     <script src="js/highlight.js" defer></script>
     <script src="js/responsive.js" defer></script>
-    <script src="js/script.js" defer></script>
 </head>
 <style></style>
 <body class="lista-cm">
@@ -25,11 +24,11 @@
         <custom-nav></custom-nav>
     </div>
     <main>
-        <h1>Lista de Clinicas</h1>
-            <div id="json-content"></div>
-
+        <div class="lista-clinicas"></div>
+        <div class="aviso-carga"></div>
 
     </main>
+    <script src="js\parsingLoader.js"></script>
     <div id="footer-index" class="footer">
         <custom-footer></custom-footer>
     </div>
