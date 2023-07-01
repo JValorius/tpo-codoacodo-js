@@ -1,75 +1,119 @@
+/* Define la estructura de los elementos principales del sitio, y en detalle la distribución de los elementros del header y el footer */
 @import "general.css";
 
+/* Tipos */
 body {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-flow: row wrap;
 }
 
-.header {
-    position: relative;
+body > * {
+    flex: 1 100%;
 }
 
-
-.header .branding-sitio {
-    float: left;
+header {
+    display: flex;
 }
 
-.header #login-register {
-    position: absolute;
-    right: 1%;
-    border-radius: .2em;
-    background: #C1272D;
-    color: #fff;
-    text-transform: uppercase;
-    padding: .5em;
-    top: 50%;
-    transform: translate(0, -50%);
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
-.footer {
+footer {
+    display: flex;
+    flex-flow: row wrap;
     margin-top: auto;
+    justify-content: center;
 }
 
+/* Clases */
+.branding-sitio {
+    display: flex;
+}
+
+.bottom-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.info-sitio {
+    flex: 6;
+}
+
+.info-sitio li {
+    list-style-type: none;
+    margin: 0;
+}
+
+.helper-links {
+    flex: 1 100%;
+    margin: 2em 5em;
+    text-align: left;
+}
+
+.redes {
+    flex: 1 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.redsoc{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.copyrhight {
+    flex: 1 100%;
+    text-align: center;
+}
+
+/* IDs */
 #nav-index {
     position: -webkit-sticky;
     position: sticky;
-    align-self: flex-start;
     top: 0;
-    left: 50%;
     background-color: #fff;
 }
 
-#nav-index a {
-    float: left;
-    position: relative;
-    right: 50%;
-    color: #0075B2;
-    display: block;
+#menu-principal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#menu-principal a {
+    color: var(--col-sec-md);
     text-transform: uppercase;
     padding: .5em 1em;
+    font-family: 'Didact Gothic', sans-serif;
+    outline: 0;
+    background: linear-gradient(var(--col-pri) 50%, var(--col-ace) 50%) no-repeat top / 100% 200%;
+    transition: .5s ease;
 }
 
-#nav-index a.actual {
-    color: #C1272D;
-    border-bottom: .3em solid #e1e1e1;
+#menu-principal a.actual {
+    background: var(--col-ter-md);
+    color: var(--col-pri);
 }
 
-#nav-index a:hover {
-    color: #848484;
-    border-bottom: .3em solid #848484;
+#menu-principal a:hover {
+    background-position: bottom;
+    color: var(--col-pri);
 }
 
-#nav-index a:active {
-    color: #C1272D;
-    border-bottom: .3em solid #e1e1e1;
+#menu-principal a:active {
+    color: var(--col-ter-md);
 }
 
-#nav-index .hamburguesa {
+#menu-principal .hamburguesa {
     display: none;
 }
 
+/*Puntos de corte*/
 @media screen and (max-width: 600px) {
     #nav-index a {
         display: none;
@@ -79,6 +123,12 @@ body {
         float: right;
         display: block;
     }
+    
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
 }
 
 @media screen and (max-width: 600px) {
@@ -97,19 +147,4 @@ body {
         display: block;
         text-align: center;
     }
-}
-
-ul li {
-    margin:20px;
-
-}
-
-.redsoc{
-    margin-left: 2em;
-}
-
-.maps{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
 }
