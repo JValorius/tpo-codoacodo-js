@@ -10,8 +10,6 @@ Mockup FrontEnd de sitio web que funcione como agregador de valororaciones de cl
         Contenido
         Formato y estilo
     Lista de clínicas
-        Estructuraa del json
-        Fetch app
         Formato y estilo
             Incluír puntajes de "atención médica", "instalaciones", "administración"
             "Ver más" (desplegable)
@@ -25,10 +23,6 @@ Mockup FrontEnd de sitio web que funcione como agregador de valororaciones de cl
         "Nosotros" (redacción)
         "FAQ" (preguntas desplegables, redacción)
         Formato y estilo
-    Formulario de registro/login (desplegable)
-        Formato y estilo (c/animación de despliegue)
-        Validación
-        API Rest
     Contacto
         Formulario de contacto
         Mailto para contacto de centros médicos
